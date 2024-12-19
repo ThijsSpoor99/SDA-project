@@ -7,7 +7,7 @@ Reject: humidity, sunshine, global_radiation
 
 H0: Seasonality does not make a variable more predictable in the VAR framework (in terms of lower RMSE). (Hypothesis_2.ipynb), (H2_trainings, H2_boxplots)
 Test: Welsch’s Two Sample t-test
-Fail to reject: Non-seasonality grouped VAR systems had consistently lower RMSE values than seasonality grouped VAR systems. 
+Fail to reject: Non-seasonality grouped VAR systems had lower RMSE values than seasonality grouped VAR systems. 
 
 H0: Increasing the sample size does not have an effect on the predicting power of a Vector Autoregression. (Hypothesis_3.ipynb), (H3_DM_Test_Heatmap)
 Test: Diebold-Mariano test
